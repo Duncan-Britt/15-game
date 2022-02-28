@@ -1,4 +1,4 @@
 (executable
  (public_name fifteen_game)
  (name main)
- (libraries fifteen_game))
+ (libraries fifteen_game Unix Str))

@@ -40,7 +40,7 @@ struct
 
   
   let is_valid board input = 
-    Str.string_match (Str.regexp "[0-9]+") input 0 && 
+    Str.string_match (Str.regexp "^[0-9]+$") input 0 && 
     let n = int_of_string input in 
     n >= 1 && n <= 15 &&
     is_adjacent board n
