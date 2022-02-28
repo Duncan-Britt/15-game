@@ -1,0 +1,2 @@
+(library
+ (name fifteen_game))

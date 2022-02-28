@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/fifteen_game/META"
+  "_build/install/default/lib/fifteen_game/dune-package"
+  "_build/install/default/lib/fifteen_game/opam"
+]
+bin: [
+  "_build/install/default/bin/fifteen_game"
+]
